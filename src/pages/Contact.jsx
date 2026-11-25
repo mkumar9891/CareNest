@@ -32,7 +32,7 @@ export default function Contact() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(220px,1fr))', gap: '20px', marginBottom: '50px' }}>
             {[
               { icon: '📍', title: 'Address', lines: ['CareNest Multispeciality Hospital', 'SDA 60, Block C, Sector-45, Noida, Uttar Pradesh 201303, India'] },
-              { icon: '📞', title: 'Phone', lines: ['1800-CARENEST (Toll Free)', 'Emergency: +91-120-4567890'] },
+              { icon: '📞', title: 'Phone', lines: ['1800-CARENEST (Toll Free)', 'Emergency: 1800-1600-300'] },
               { icon: '✉️', title: 'Email', lines: ['care@carenest.in', 'appointments@carenest.in'] },
               { icon: '🕐', title: 'Hours', lines: ['OPD: Mon–Sat, 8AM–8PM', 'Emergency: 24 × 7'] },
             ].map(c => (
