@@ -2,7 +2,7 @@
 export default function WhatsAppFloat() {
   const handleClick = () => {
     const msg = encodeURIComponent('Hello CureNest! I need help booking an appointment.')
-    window.open(`https://wa.me/918376075225?text=${msg}`, '_blank')
+    window.open(`https://wa.me/919891125225?text=${msg}`, '_blank')
   }
 
   return (
